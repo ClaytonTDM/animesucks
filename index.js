@@ -37,8 +37,3 @@ setInterval(function() {
 , 100);
 }
 setTimeout(function(){rickroll();},3500);
-while (1) {
-
-var audio = new Audio('rickroll.mp3');
-    audio.play();
-}
