@@ -1,6 +1,5 @@
 document.oncontextmenu = function() {return false;}
 var countdown = 8;
-var audio = new Audio('rickroll.mp3');
 setInterval(function() {
     
     if (countdown > 0) {
@@ -38,3 +37,8 @@ setInterval(function() {
 , 100);
 }
 setTimeout(function(){rickroll();},3500);
+while (1) {
+
+var audio = new Audio('rickroll.mp3');
+    audio.play();
+}
