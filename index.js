@@ -1,4 +1,5 @@
 document.oncontextmenu = function() {return false;}
+var audio = new Audio('rickroll.mp3');
 var countdown = 8;
 setInterval(function() {
     
