@@ -1,4 +1,5 @@
 function page1() {
+console.log('page1');
 document.oncontextmenu = function() {return false;}
 var audio = new Audio('rickroll.mp3');
 var countdown = 8;
