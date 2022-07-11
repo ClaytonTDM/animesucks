@@ -4,7 +4,6 @@ console.log(8);
 document.oncontextmenu = function() {return false;}
 var countdown = 8;
 setInterval(function() {
-    
     if (countdown > 0) {
         countdown--;
     }
