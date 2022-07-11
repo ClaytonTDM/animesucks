@@ -12,10 +12,11 @@ setInterval(function() {
         document.getElementById('gone2').classList.remove('gone');
     }
 }, 1000);
+if (doConsoleUpdate == 1) {
 setInterval(function() {
     console.clear();
     console.log(countdown);
-}
+}}
 , 1000);
 setTimeout(function(){document.getElementById('gone').classList.remove('gone');},1000);
 setTimeout(function(){document.title = 'BOOM!';},800);
@@ -40,4 +41,13 @@ setInterval(function() {
 , 100);
 }
 setTimeout(function(){rickroll();},3500);
+}
+function page2() {
+    function adrielHacksOnALegoGame() {
+        const adrielHacksOnALegoGame = 1
+        if(adrielHacksOnALegoGame = 1) {
+        console.warn('hacking is cringe');
+        } else {
+        console.error('404 not found');
+        }}
 }
