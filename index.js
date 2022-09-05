@@ -41,12 +41,3 @@ setInterval(function() {
     }}
 , 10);}
 setTimeout(function(){rickroll();},3500);}
-function page2() {
-    adrielHacksOnALegoGame();
-    function adrielHacksOnALegoGame() {
-        const adrielHacksOnALegoGame = 1
-        if(adrielHacksOnALegoGame = 1) {
-        console.warn('hacking is cringe');
-        } else {
-        console.error('404 not found');
-        }}}
